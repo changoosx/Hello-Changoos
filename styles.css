@@ -129,7 +129,7 @@ button:hover{
            .heading-1 {
             display: block;
             font-family: "Comic Neue", cursive;
-            font-size: 40px;
+            font-size: 30px;
             font-weight: 300;
             font-style: italic;
             color: aqua;
@@ -137,9 +137,10 @@ button:hover{
            }
 
            .point-right {
+            display: block;
             margin-top: 90px;
-            margin-left: 5px;
-            scale: 140%;
+            margin-left: 0;
+            scale: 120%;
             width: 40px;
             }
 
@@ -176,8 +177,8 @@ button:hover{
 
             .handfulla {
             display: block;
-            width: 830px;
-            height: 467px;
+            width: 790px;
+            height: 444px;
             margin-left: 30px;
 
             }

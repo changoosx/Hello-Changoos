@@ -137,7 +137,6 @@ button:hover{
            }
 
            .point-right {
-            display: block;
             margin-top: 90px;
             margin-left: 0;
             scale: 120%;
@@ -172,7 +171,7 @@ button:hover{
                 display: block;
                 position: absolute;
                 margin-top: 440px;
-                margin-left: 10px;
+                margin-left: 15px;
             }
 
             .handfulla {

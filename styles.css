@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100..900&display=swap');
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 500px;
+    font-size: 16px;
+    color:aqua;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition:all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: yellow
+}
+ 
+button { 
+    padding: 9px 25px;
+    background-color: chocolate;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    animation: animate 3s linear infinte;
+}
+
+button:hover{
+    background-color: blue;
+}
+
+.cheddar {
+    margin-left: 50px;
+}
+
+.scrolling-text-container { 
+    width: 100%; /* Ensure the container is full width */ 
+    overflow: hidden; /* Hide any overflowing content */ 
+    white-space: nowrap; /* Prevent text wrapping */ 
+    background-image: url('imgs/giphy.webp'); /* Add your background image */ 
+    background-repeat: repeat-x; /* Repeat the background image horizontally */ 
+    background-size: cover; /* Cover the entire container */ 
+    padding: 1px 0; /* Optional: add some vertical padding */
+ } 
+    .scrolling-text { 
+        display: inline-block; /* Display text as inline block */ 
+        white-space: nowrap; /* Prevent text wrapping */ 
+        animation: scroll-text 10s linear infinite; /* Apply animation */ 
+        font-family: "Noto Sans JP", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: bold ;
+        font-style: italic;
+        font-size: 2em; /* Adjust the font size as needed */ 
+        color: rgb(0, 0, 0); /* Adjust text color as needed */ 
+    } 
+    @keyframes scroll-text { 0% { 
+        transform: translateX(100%); /* Start from the right */ }
+
+         100% { transform: translateX(-100%); /* End at the left */ }
+         }
+
+
+         .lightning {
+            display: flex;
+            position: absolute;
+            top: -50px;
+            left: 1px;
+            transform: rotateY(-180deg);
+         }
+
+         .lightning-right {
+            display: flex;
+            position: absolute;
+            top: -50px;
+            right: 1px;
+         }
+
+        /* yeauh*/
+        
+         .container {
+            display: flex;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 5px;
+           }
+           
+           bang {
+            display: block;
+            gap: 10;    
+            align-content: center;
+            align-self: auto;
+           }
+
+           .heading-1 {
+            display: block;
+            font-family: "Comic Neue", cursive;
+            font-size: 40px;
+            font-weight: 300;
+            font-style: italic;
+            color: aqua;
+            margin-top: 60px;
+           }
+
+           .point-right {
+            margin-top: 90px;
+            margin-left: 5px;
+            scale: 140%;
+            width: 40px;
+            }
+
+            .moon {
+                display: block;
+                position: absolute;
+                left: -180px;
+                top: 100px;
+                scale: 20%;
+            }
+            
+            .earth {
+                display: block;
+                position: absolute;
+                bottom: 80px;
+                right: 200px;
+                scale: 80%;
+            }
+
+            .neptune {
+                display: block;
+                position: absolute;
+                margin-top: 310px;
+                margin-left: 310px;
+                scale: 85%;
+            }
+
+            .jupiter {
+                display: block;
+                position: absolute;
+                margin-top: 440px;
+                margin-left: 10px;
+            }
+
+            .handfulla {
+            display: block;
+            width: 830px;
+            height: 467px;
+            margin-left: 30px;
+
+            }
+
+           .buymusic {
+            display: block;
+            justify-content: flex-start;
+            margin-left: auto;
+            margin-right: 20px;
+           }
+
+          .divider {
+            display: flex;
+            overflow: hidden;
+          }

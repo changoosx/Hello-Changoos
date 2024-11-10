@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans+JP:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Risque&display=swap');
 
 
 
@@ -136,10 +137,16 @@ button:hover{
             margin-top: 60px;
            }
 
+           .fire {
+            scale: 105%;
+            transform: translateX(148px);
+           margin-top: -84px;
+           }
+
            .point-right {
             margin-top: 90px;
-            margin-left: 0;
-            scale: 120%;
+            margin-left: 40px;
+            scale: 200%;
             width: 40px;
             }
 
@@ -154,9 +161,9 @@ button:hover{
             .earth {
                 display: block;
                 position: absolute;
-                bottom: 80px;
-                right: 200px;
                 scale: 80%;
+                margin-top: 18pc;
+                margin-left: 800px;
             }
 
             .neptune {
@@ -174,6 +181,14 @@ button:hover{
                 margin-left: 15px;
             }
 
+            .welcome{
+                display: block;
+                position: absolute;
+                margin-top: 31pc;
+                margin-left: 68pc;
+                scale: 150%;
+            }
+
             .handfulla {
             display: block;
             width: 790px;
@@ -189,7 +204,86 @@ button:hover{
             margin-right: 20px;
            }
 
+          .shmoke {
+            display: block;
+            position: absolute;
+            bottom: auto;
+                right: 20px;
+          }
+
           .divider {
             display: flex;
             overflow: hidden;
+            justify-content: center;
           }
+
+          .container-2 {
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            column-gap: 1em;
+            transform: translateX(-80px); 
+            margin-bottom: -190px;
+            padding-top: 20px
+          }
+
+          .second {
+            width: auto;
+            height: auto;
+          }
+
+          
+          #emote1{display: block;
+            scale: 30%;
+            transform-origin: top right;
+           
+          }
+
+          #boutme {display: block;
+            font-family: "Love Ya Like A Sister", cursive;
+            padding-top: 15px;
+        }
+
+        #flag {display: block;
+            padding-top: 20px;
+            padding-left: 10px;
+        }
+
+        .container-3{
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            column-gap: 2em;
+        }
+        #firstbeat{
+            font-family: "Risque", serif;
+            font-size:xx-large;
+            padding-top: 10px
+        }
+
+        #arrow{
+            scale: 150%;
+            padding-top: 70px;
+            transform: translateX(-125px)
+        }
+
+        #yo{
+            transform-origin: top left;
+            scale: 30%;
+        }
+
+        #japanese{
+            display: block;
+            position: absolute;
+            margin-top: 240px;
+           scale: 150%;
+           margin-left: -1070px;
+        }
+
+        #dayn{
+            scale: 75%;
+            display: block;
+            position: absolute;
+            margin-top: -70px;
+            margin-right: -140px;
+        }
